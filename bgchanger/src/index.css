@@ -1,0 +1,34 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
+}
+
+.maincontainer {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.buttoncontainer {
+  height: 100%;
+  gap: 10px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+button:hover{
+  border: 1px solid white;
+  background-color: red;
+}
